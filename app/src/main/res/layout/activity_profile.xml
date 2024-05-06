@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/background_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/PROFILE_BTN_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_dialog" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="80dp"
+            >
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/PROFILE_TXT_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NAME"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:paddingLeft="100dp"
+                android:textColor="@color/blue_100"
+
+
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/PROFILE_TXT_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="שלום"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:paddingRight="100dp"
+                android:textColor="@color/blue_100"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="25dp"
+            android:paddingBottom="30dp"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/PROFILE_TXT_fullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="first name"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="שם מלא:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="25dp"
+            android:paddingBottom="30dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/PROFILE_TXT_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="last name"
+                android:textColor="@color/blue_100"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="שם משתמש:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="25dp"
+            android:paddingBottom="30dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/PROFILE_TXT_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="role"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="תפקיד:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="25dp">
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/PROFILE_TXT_salaryPerHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="35"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+
+
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="שכר שעתי:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_100"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/PROFILE_BTN_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="לחץ לעדכון נתונים"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

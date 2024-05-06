@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="@drawable/background_dashboard">
+
+
+    <LinearLayout
+        android:id="@+id/dashboard_LOT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/dashboard_TXT_userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:text="NAME" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/dashboard_TXT_welcome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="ברוך הבא "
+            android:textStyle="bold"
+            android:textSize="40dp"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/dashboard_LOT"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="60dp"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dashboard_BTN_sendShifts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="שליחת משמרות"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dashboard_BTN_myShifts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="המשמרות שלי"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dashboard_BTN_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="חישוב שכר"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dashboard_BTN_userDetailes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="פרטים אישיים"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dashboard_BTN_manageShifts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="סידור משמרות"
+            android:textColor="@color/yellow_700"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:visibility="invisible"
+            />
+
+        <Button
+
+            android:id="@+id/DASH_BTN_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="התנתק מהמשתמש"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/green_500"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

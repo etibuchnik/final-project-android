@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "781705994699",
+    "firebase_url": "https://shiftmanager-1608-default-rtdb.firebaseio.com",
+    "project_id": "shiftmanager-1608",
+    "storage_bucket": "shiftmanager-1608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781705994699:android:efa699417ef5effa34964e",
+        "android_client_info": {
+          "package_name": "com.example.shift_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwzJrTlxBTJJ_YcbSDgWxlueb3eVGTHIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

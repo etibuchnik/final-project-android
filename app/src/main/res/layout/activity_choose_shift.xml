@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseShift"
+    android:background="@drawable/background_choose_shifts"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/CHOOSE_BTN_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_dialog"
+            android:layout_alignParentTop="true"
+
+            />
+
+        <TextView
+            android:id="@+id/CHOOSE_TXT_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="שים לב כי הינך צריך לבחור לפחות 3 משמרות"
+            android:textColor="@color/red_500"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/CHOOSE_BTN_back"
+
+            />
+
+        <TextView
+            android:id="@+id/CHOOSE_TXT_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="מספר המשמרות שנבחרו: "
+            android:textColor="@color/blue_800"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/CHOOSE_TXT_text1"
+
+
+            />
+
+        <TextView
+            android:id="@+id/CHOOSE_TXT_numShifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@color/blue_800"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/CHOOSE_TXT_text2"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:paddingLeft="80dp"
+            android:layout_below="@+id/CHOOSE_TXT_numShifts"
+            >
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="10dip"
+                android:background="@color/blue_800" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_2"
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_1"
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום ראשון "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_4"
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_3"
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שני "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_6"
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_5"
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שלישי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_8"
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_7"
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום רביעי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_10"
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_9"
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום חמישי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_11"
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שישי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/CHOOSE_TXT_12"
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textStyle="bold"
+                    android:background="@color/red_500"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שבת "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/CHOOSE_BTN_sendShifts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:text="סיימתי!"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

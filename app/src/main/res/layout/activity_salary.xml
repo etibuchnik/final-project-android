@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalaryActivity"
+    android:background="@drawable/background_salary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/SALARY_BTN_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_dialog"
+
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/SALARY_TXT_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="כמות שעות עבודה:"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+
+
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/SALARY_TXT_amountUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/SALARY_TXT_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="שכר מחושב: "
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/SALARY_TXT_amountUser"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/SALARY_TXT_salaryUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="100000"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

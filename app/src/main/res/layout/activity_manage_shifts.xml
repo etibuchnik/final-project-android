@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageShifts"
+    android:background="@drawable/background_manage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/MANAGE_BTN_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_dialog" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:paddingLeft="80dp"
+            >
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="משמרת ערב"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="משמרת בוקר"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="8dip"
+                android:background="@color/blue_800" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_2"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_1"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום ראשון "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_2"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_1"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:gravity="right"
+
+                    android:padding="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_2"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_1"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_4"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_3"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שני "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_4"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_3"
+                    android:padding="5dip"
+                    android:text="עועבד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_4"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_3"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_6"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_5"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שלישי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_6"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_5"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_6"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_5"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_8"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_7"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום רביעי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_8"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_7"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_8"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_7"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_10"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_9"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום חמישי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_10"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_9"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_10"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_9"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_11"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שישי "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_11"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_11"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_12"
+                    android:padding="5dip"
+                    android:text="עובד 1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:text="יום שבת "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_12"
+                    android:padding="5dip"
+                    android:text="עובד 2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:layout_height="41dp"
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/MYSHIFTS_TXT_12"
+                    android:padding="5dip"
+                    android:text="עובד 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="שבת שלום"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_800"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:padding="5dip"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
